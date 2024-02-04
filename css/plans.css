@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 9;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+@font-face {
+    font-family: Main-font;
+    src: url(../fonts/WixMadeforTextVF_W_Wght.8022447a.woff2);
+}
+body{
+    background-color: var(--Primery_Whihe);
+    max-width: 2000px;
+    height: auto;
+    
+     
+}
+
+:root{
+    --Primery_Whihe: rgb(255,255,255);
+    --Primery_Dark_Blue : rgb(12,60,96);
+    --text: rgb(7,33,54);
+    --font-family:Main-font;
+    --overlay: rgb(216,232,242);
+    --testimonial_backgound : rgb(247,247,247);
+    ---shadow: 0px 4px 7px -2px rgba(0,0,0,0.68);
+    --contactBb: rgb(7,33,54);
+
+}
+
+.plans {
+    width: 1455px;
+    height: 1029px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.plans_heading {
+    width: 1455px;
+    height: 197px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+}
+.plans_heading  h2 {
+    font-size: 60px;
+    font-family: var(--font-family);
+    font-weight: 100;
+    color: var(--Primery_Dark_Blue);
+}
+.plans_heading  p {
+    font-size: 16px;
+    font-family: var(--font-family);
+    font-weight: 100;
+    color: var(--Primery_Dark_Blue);
+}
+
+
+.plan_contaiiner {
+    width: 1455px;
+    height: 687px;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.plan_box {
+    width: 453px;
+    height: 672px;
+    
+    border: 1px solid var(--Primery_Dark_Blue);
+}
+.plan_box .top {
+    width: 454px;
+    height: 336.4px;
+   
+    border-bottom: 1px solid var(--Primery_Dark_Blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.plan_box .top  div{
+    width: 391px;
+    height: 60px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan_box .top  div h2{
+    font-family: var(--font-family);
+    font-weight: 100;
+    color: var(--Primery_Dark_Blue);
+    font-size: 25px;
+
+}
+.plan_box .top  div  .price {
+    font-family: var(--font-family);
+    font-weight: 100;
+    color: var(--Primery_Dark_Blue);
+    font-size: 60px;
+
+}
+.plan_box .top  div p{
+    font-family: var(--font-family);
+    font-weight: 100;
+    color: var(--Primery_Dark_Blue);
+    font-size: 15px;
+
+}
+.plan_box .top  div span{
+    font-family: var(--font-family);
+    font-weight: 100;
+    color: var(--Primery_Dark_Blue);
+    font-size: 13px;
+
+}
+
+.plan_box .top  .button{
+     width: 294px;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     border: 1px solid var(--Primery_Dark_Blue);
+     justify-content: center;
+     background-color: var(--Primery_Dark_Blue);
+     color: white;
+     font-family: var(--font-family);
+     font-weight: 100;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+
+}
+
+
+
+.plan_box .bottom {
+    width: 454px;
+    height: 336.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+.plan_box .bottom div {
+    width: 391px;
+    height: 32px;
+    margin-top: 4%;   
+    text-align: center;
+
+}
+.plan_box .bottom div i {
+    color: var(--Primery_Dark_Blue);
+}
+.plan_box .bottom div  span{
+    font-family: var(--font-family);
+    font-weight: 100;
+    font-size: 14px;
+    color: var(--Primery_Dark_Blue);
+}

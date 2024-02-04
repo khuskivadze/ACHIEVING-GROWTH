@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 9;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+@font-face {
+    font-family: Main-font;
+    src: url(../fonts/WixMadeforTextVF_W_Wght.8022447a.woff2);
+}
+body{
+    background-color: var(--Primery_Whihe);
+    max-width: 2000px;
+    height: auto;
+    
+     
+}
+
+:root{
+    --Primery_Whihe: rgb(255,255,255);
+    --Primery_Dark_Blue : rgb(12,60,96);
+    --text: rgb(7,33,54);
+    --font-family:Main-font;
+    --overlay: rgb(216,232,242);
+    --testimonial_backgound : rgb(247,247,247);
+    ---shadow: 0px 4px 7px -2px rgba(0,0,0,0.68);
+    --contactBb: rgb(7,33,54);
+
+}
+
+
+
+
+.services {
+    width: 1455px;
+    height: 1422px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    width: 1455px;
+    height: 225px;
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title h2{
+    font-size: 60px;
+}
+
+.servicess{
+    width: 980px;
+    height: 1077px;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.servicess .box {
+    width: 940px;
+    height: 292.98px;
+    background-color: white;
+    border: 2px solid var(--Primery_Dark_Blue);
+    display: flex;
+   
+}
+.box_img {
+    width: 469px;
+    height: 290.58px;
+    background-color: tomato;
+}
+.box_img  img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.box_title {
+    width: 469px;
+    height: 290.58px;
+    display: flex;
+    flex-direction: column;
+     
+    padding-top: 50px;
+    padding-left: 50px;
+  
+}
+.box_title  h2{
+    width: 349px ;
+    height: 35px;
+    font-size: 20px;
+    font-weight: 100;
+    color: var(--Primery_Dark_Blue);
+    font-family: var(--font-family);
+}
+.box_title  span{
+    width: 349px;
+    height: 34px;
+    font-size: 16px;
+    font-family: var(--font-family);
+    color: var(--Primery_Dark_Blue);
+}
+.box_title  a {
+    width: 108px;
+    height: 40px;
+    border: 2px solid var(--Primery_Dark_Blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: var(--font-family);
+    color: var(--Primery_Dark_Blue);
+}
